@@ -1,7 +1,7 @@
 ````markdown
 # Fancy Flutter
 
-Fancy is a lightweight state management package for Flutter that simplifies controller management and dependency injection. Inspired by frameworks like GetX, Fancy provides a streamlined way to manage state, dependencies, and UI updates with minimal boilerplate.
+fancy_flutter is a lightweight state management package for Flutter that simplifies controller management and dependency injection. Inspired by frameworks like GetX, Fancy provides a streamlined way to manage state, dependencies, and UI updates with minimal boilerplate.
 
 ## Features
 
