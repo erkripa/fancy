@@ -1,4 +1,4 @@
-import 'package:fancy_flutter/fancy.dart';
+import 'package:fancy_flutter/fancy_flutter.dart';
 import 'auth_controller.dart';
 import 'auth_service.dart';
 

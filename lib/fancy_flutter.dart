@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-export 'package:fancy_flutter/src/fancy.dart';
+export 'package:fancy_flutter/src/fancy_flutter.dart';
 export 'package:fancy_flutter/src/fancy_builder.dart';
 export 'package:fancy_flutter/src/fancy_dependency_injector.dart';
 export 'package:fancy_flutter/src/fancy_base_injector.dart';

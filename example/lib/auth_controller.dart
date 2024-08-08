@@ -1,5 +1,5 @@
 import 'package:example/auth_service.dart';
-import 'package:fancy_flutter/fancy.dart';
+import 'package:fancy_flutter/fancy_flutter.dart';
 
 class AuthController extends FancyBaseController {
   final AuthService _authService = Fancy.get<AuthService>();

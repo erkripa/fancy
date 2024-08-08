@@ -1,5 +1,5 @@
 import 'package:example/injector.dart';
-import 'package:fancy_flutter/fancy.dart';
+import 'package:fancy_flutter/fancy_flutter.dart';
 import 'package:flutter/material.dart';
 import 'auth_controller.dart';
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FancyMaterialApp(
+    return FancyStateInjector(
       injector: FancyDependencyInjector(),
       child: const MaterialApp(
         home: LoginPage(),

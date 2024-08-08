@@ -101,7 +101,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FancyMaterialApp(
+    return FancyStateInjector(
       injector: FancyDependencyInjector(),
       child: const MaterialApp(
         home: LoginPage(),
@@ -143,7 +143,6 @@ class LoginPage extends StatelessWidget {
     );
   }
 }
-
 
 ```
 

@@ -2,23 +2,23 @@ import 'package:flutter/material.dart';
 import 'fancy_dependency_injector.dart';
 
 // Utility class for simplified dependency management
-class FancyMaterialApp extends InheritedWidget {
+class FancyStateInjector extends InheritedWidget {
   final FancyDependencyInjector injector;
 
-  const FancyMaterialApp({
+  const FancyStateInjector({
     super.key,
     required this.injector,
     required super.child,
   });
 
-  static FancyMaterialApp of(BuildContext context) {
-    final FancyMaterialApp? result = context.dependOnInheritedWidgetOfExactType<FancyMaterialApp>();
+  static FancyStateInjector of(BuildContext context) {
+    final FancyStateInjector? result = context.dependOnInheritedWidgetOfExactType<FancyStateInjector>();
     assert(result != null, 'No Fancy found in context');
     return result!;
   }
 
   @override
-  bool updateShouldNotify(FancyMaterialApp oldWidget) {
+  bool updateShouldNotify(FancyStateInjector oldWidget) {
     return injector != oldWidget.injector;
   }
 }
