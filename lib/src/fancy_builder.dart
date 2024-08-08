@@ -1,5 +1,5 @@
-import 'package:fancy/fancy.dart';
-import 'package:fancy/src/fancy_mixin.dart';
+import 'package:fancy_flutter/fancy.dart';
+import 'package:fancy_flutter/src/fancy_mixin.dart';
 import 'package:flutter/material.dart';
 
 class FancyBuilder<T extends FancyBaseController> extends StatefulWidget {

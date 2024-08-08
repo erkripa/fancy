@@ -1,4 +1,4 @@
-import 'package:fancy/fancy.dart';
+import 'package:fancy_flutter/fancy.dart';
 
 class Fancy {
   static void register<T>(T Function() factory, {bool permanent = false}) {

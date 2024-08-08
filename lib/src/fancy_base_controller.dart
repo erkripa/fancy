@@ -1,4 +1,4 @@
-import 'package:fancy/src/fancy_mixin.dart';
+import 'package:fancy_flutter/src/fancy_mixin.dart';
 import 'package:flutter/material.dart';
 
 abstract class FancyBaseController with ListenableMixin, ListNotifierMixin, FancyStateMixin {

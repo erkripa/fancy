@@ -34,7 +34,7 @@ dependencies:
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:fancy/fancy.dart';
+import 'package:fancy_flutter/fancy.dart';
 
 // Example service
 class AuthService {

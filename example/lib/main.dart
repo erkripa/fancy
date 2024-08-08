@@ -1,5 +1,5 @@
 import 'package:example/injector.dart';
-import 'package:fancy/fancy.dart';
+import 'package:fancy_flutter/fancy.dart';
 import 'package:flutter/material.dart';
 import 'auth_controller.dart';
 
