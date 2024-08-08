@@ -154,14 +154,3 @@ class LoginPage extends StatelessWidget {
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-
-### Acknowledgments
-
-Inspired by GetX and other state management solutions for Flutter.
-```
-
----
-
-This README file provides an overview of your Fancy package, how to get started with it, and an example of how to use it in a Flutter application.
