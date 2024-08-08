@@ -1,0 +1,33 @@
+name: fancy
+description: >
+  Fancy is a lightweight state management and dependency injection package for Flutter. 
+  It provides a simple and efficient way to manage state and dependencies, inspired by GetX.
+version: 0.0.1
+homepage: https://github.com/erkripa/fancy
+repository: https://github.com/erkripa/fancy
+issue_tracker: https://github.com/erkripa/fancy/issues
+documentation: https://pub.dev/documentation/fancy/latest/
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  pedantic: ^1.11.0 # For strict code analysis
+
+flutter:
+
+# Include README, LICENSE, and CHANGELOG in the package
+flutter_package:
+  includes:
+    - README.md
+    - LICENSE
+    - CHANGELOG.md
+    - example/
